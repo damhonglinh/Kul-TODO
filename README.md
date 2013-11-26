@@ -1,7 +1,7 @@
 Kul TODO
 =================
 
-An TODO List Android application that can sync with Google Task.
+A TODO List Android application that can sync with Google Task.
 <br/><br/>
 Special features:
 <ul>
