@@ -1,10 +1,13 @@
 TODO-List-Android
 =================
 
-An TODO List application on Android that can sync with Google Task. Features:
-  Create, edit, delete a task.
-  Mark as read.
-  Group tasks.
-  Sort tasks.
-  Set 3 priorities.
-  Add phone contacts to a task.
+An TODO List application on Android that can sync with Google Task.<br/>
+Features:
+<ul>
+  <li>Create, edit, delete a task.</li>
+  <li>Mark as read.</li>
+  <li>Group tasks.</li>
+  <li>Sort tasks.</li>
+  <li>Set 3 priorities.</li>
+  <li>Add phone contacts to a task.</li>
+</ul>
