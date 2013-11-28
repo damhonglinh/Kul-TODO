@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="titleBar">#fff77d</color>
+    <color name="foregroundGroup">#000000</color>
+    <color name="foregroundTitle">#000000</color>
+    <color name="taskLineBGEven">#fffacd</color>
+    <color name="taskLineBGOdd">#fffce8</color>
+    <color name="taskLineTitleFG">#000000</color>
+    <color name="taskLineTimeFG">#999999</color>
+    <color name="taskListViewDivider">#BDB76B</color>
+    <color name="taskLineBGSelected">#ffd78c</color>
+    <color name="halfTransparentBGColor">#77C0C0C0</color>
+
+</resources>

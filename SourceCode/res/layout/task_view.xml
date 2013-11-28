@@ -1,0 +1,184 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/wood"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/taskViewDivider"
+        android:background="@color/taskListViewDivider"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/main_activity_horizontal_margin"
+            android:background="@color/taskListViewDivider"
+            android:gravity="center_vertical"
+            android:text="@string/description"
+            android:textSize="@dimen/taskViewDividerFontSize" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <EditText
+            android:id="@+id/taskViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/taskViewPriority"
+            android:ems="11"
+            android:hint="@string/taskTitle" >
+
+            <requestFocus />
+        </EditText>
+
+        <Spinner
+            android:id="@+id/taskViewPriority"
+            android:layout_width="@dimen/taskViewPriorityWidth"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:entries="@array/priorities" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/taskViewDesc"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/taskNote"
+        android:inputType="textMultiLine" >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/taskViewDivider"
+        android:background="@color/taskListViewDivider"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/main_activity_horizontal_margin"
+            android:background="@color/taskListViewDivider"
+            android:gravity="center_vertical"
+            android:text="@string/time"
+            android:textSize="@dimen/taskViewDividerFontSize" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/main_activity_horizontal_margin"
+        android:layout_marginRight="@dimen/main_activity_horizontal_margin"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/taskViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/taskViewAllDay"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/taskViewAllDay"
+            android:gravity="center_vertical"
+            android:text="20 Mar 2013"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/foregroundGroup" />
+
+        <CheckBox
+            android:id="@+id/taskViewAllDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/taskViewTime"
+            android:text="@string/allDay"
+            android:textColor="@color/foregroundGroup" />
+
+        <TextView
+            android:id="@+id/taskViewTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/taskViewDate"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="aaaa"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/foregroundGroup" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/taskViewDivider"
+        android:background="@color/taskListViewDivider"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/taskViewDivider"
+            android:layout_marginLeft="@dimen/main_activity_horizontal_margin"
+            android:background="@color/taskListViewDivider"
+            android:gravity="center_vertical"
+            android:text="@string/group"
+            android:textSize="@dimen/taskViewDividerFontSize" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/taskViewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/main_activity_horizontal_margin"
+        android:layout_marginRight="@dimen/main_activity_horizontal_margin"
+        android:layout_weight="1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/taskViewDiverForCollaborater"
+        android:background="@color/taskListViewDivider"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/main_activity_horizontal_margin"
+            android:background="@color/taskListViewDivider"
+            android:gravity="center_vertical"
+            android:text="@string/collaborator"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/taskViewDividerCollaboratorFontSize" />
+
+        <ImageButton
+            android:id="@+id/taskViewAddContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/main_activity_horizontal_margin"
+            android:background="@android:drawable/ic_menu_add"
+            android:contentDescription="@string/add" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/taskViewContact"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:divider="@color/taskListViewDivider"
+        android:dividerHeight="1dp"
+        android:textColor="@color/foregroundGroup" >
+    </ListView>
+
+</LinearLayout>

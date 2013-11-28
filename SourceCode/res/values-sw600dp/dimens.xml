@@ -1,0 +1,26 @@
+<resources>
+
+    <dimen name="main_activity_horizontal_margin">15dp</dimen>
+    <dimen name="main_activity_vertical_margin">15dp</dimen>
+    <dimen name="main_activity_horizontal_margin_large">40dp</dimen>
+    <dimen name="taskLineTitleMargin">5dp</dimen>
+    <dimen name="taskLineDateMargin">5dp</dimen>
+    <dimen name="groupHorizontalSpacing">15dp</dimen>
+    <dimen name="groupVerticalSpacing">50dp</dimen>
+    <dimen name="groupColumnWidth">170dp</dimen>
+    <dimen name="groupVerticalHeight">170dp</dimen>
+    <dimen name="titlebarHeight">45dp</dimen>
+    <dimen name="taskLineDateFontSize">10dp</dimen>
+    <dimen name="taskLineHeight">60dp</dimen>
+    <dimen name="groupNameTaskViewHoriMargin">50dp</dimen>
+    <dimen name="groupFontSize">20sp</dimen>
+    <dimen name="taskLineTitleFontSize">18dp</dimen>
+    <dimen name="contactLineContactNameFontSize">18sp</dimen>
+    <dimen name="contactLineContactDetailFontSize">12sp</dimen>
+    <dimen name="taskViewPriorityWidth">160dp</dimen>
+    <dimen name="taskViewDivider">32dp</dimen>
+    <dimen name="taskViewDividerFontSize">20sp</dimen>
+    <dimen name="taskViewDividerCollaboratorFontSize">20sp</dimen>
+    <dimen name="taskViewDiverForCollaborator">32dp</dimen>
+
+</resources>

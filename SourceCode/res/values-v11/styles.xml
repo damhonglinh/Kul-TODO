@@ -1,0 +1,15 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+
+    <style name="sky">
+        <item name="android:background">@drawable/backgroundsky</item>
+    </style>
+
+    <style name="wood">
+        <item name="android:background">@drawable/backgroundwood</item>
+    </style>
+
+</resources>

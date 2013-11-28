@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/taskListMenuAdd"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="ifRoom"
+        android:title="@string/addTask">
+    </item>
+    <item
+        android:id="@+id/taskListMenuDelete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/deleteTask">
+    </item>
+    <item
+        android:id="@+id/taskListMenuSelectAll"
+        android:showAsAction="ifRoom"
+        android:title="@string/selectAllTask">
+    </item>
+    <item
+        android:id="@+id/taskListMenuCompleteTask"
+        android:title="@string/markCompleteTask">
+    </item>
+    <item android:title="@string/sortBy">
+        <menu>
+            <item
+                android:id="@+id/taskListSortByPrio"
+                android:title="@string/sortByPriority"/>
+            <item
+                android:id="@+id/taskListSortByDate"
+                android:title="@string/sortByDueDate"/>
+            <item
+                android:id="@+id/taskListSortByAdded"
+                android:title="@string/sortByAdded"/>
+        </menu>
+    </item>
+
+</menu>

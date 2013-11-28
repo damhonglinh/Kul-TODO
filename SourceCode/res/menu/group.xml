@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/addGroupMenuItem"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="ifRoom"
+        android:title="@string/addGroupMenu"/>
+    <item
+        android:id="@+id/groupDeauthorItem"
+        android:title="@string/deauthorizeAccount"/>
+    <item
+        android:id="@+id/groupSync"
+        android:title="@string/sync"/>
+
+</menu>

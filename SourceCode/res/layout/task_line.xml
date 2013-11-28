@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/taskLineHeight"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/taskLinePriority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/main_activity_horizontal_margin"
+        android:layout_marginTop="@dimen/main_activity_horizontal_margin"
+        android:src="@drawable/highpriority" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/taskLineHeight"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/titleTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/taskLineTitleMargin"
+            android:layout_marginRight="@dimen/taskLineTitleMargin"
+            android:maxLines="@integer/taskLineTitleMaxLine"
+            android:text="adadasd4131231221da1111dsad"
+            android:textColor="@color/taskLineTitleFG"
+            android:textSize="@dimen/taskLineTitleFontSize" />
+
+        <TextView
+            android:id="@+id/dateTask"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/taskLineDateMargin"
+            android:text="20 March 2013"
+            android:gravity="center_vertical"
+            android:textColor="@color/taskLineTimeFG"
+            android:textSize="@dimen/taskLineDateFontSize" />
+    </LinearLayout>
+
+</LinearLayout>

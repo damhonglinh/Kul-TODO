@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/groupVerticalHeight" >
+
+    <TextView
+        android:id="@+id/groupName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/groupbackground"
+        android:gravity="center"
+        android:paddingLeft="@dimen/main_activity_horizontal_margin"
+        android:paddingRight="@dimen/main_activity_horizontal_margin"
+        android:text="adada"
+        android:textColor="@color/foregroundGroup"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/groupFontSize" />
+
+</RelativeLayout>
